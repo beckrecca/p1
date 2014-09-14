@@ -7,8 +7,27 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <style type="text/css">
+    	body {
+    		background-color: #FABBB0;
+    	}
     	h1 {
     		text-align: center;
+    	}
+    	.panel {
+    		border: 1px dotted #aaa;
+    		text-align: right;
+    	}  	
+    	ul {
+    		list-style: none;
+    		font-weight: bold;
+    	}
+
+    	a {
+    		color: #859857;
+    	}
+    	a:hover {
+    		color: #7F756E;
+    		text-decoration: none;
     	}
     </style>
 </head>
@@ -22,24 +41,26 @@
 
 	<div class="main">
 		<div class="row">
-			<div class="col-sm-3 col-md-4">
-				<img src="img/me.jpg" class="img-responsive img-rounded">
-
-				<h3>Project Links</h3>
-				<ul class="nav nav-pills nav-stacked">
-					<li><a href="#">P2 Live</a></li>
-					<li><a href="#">P2 Github</a></li>
-					<li><a href="#">P3 Live</a></li>
-					<li><a href="#">P3 Github</a></li>
-					<li><a href="#">P4 Live</a></li>
-					<li><a href="#">P4 Github</a></li>
-				</ul>
+			<div class="col-sm-4 col-lg-5 left">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<img src="img/me.jpg" alt="me standing in front of Kent falls in Connecticut" class="img-responsive img-rounded">
+					</div>
+					<div class="panel-body">
+						<h4>Project Links</h4>
+						<ul class="list-group">
+							<li>P2: <a href="http://p2.beckrecca.me" target="_blank">Live</a> & <a href="https://github.com/beckrecca/p2" target="_blank">Github</a></li>
+							<li>P3: <a href="http://p3.beckrecca.me" target="_blank">Live</a> & <a href="https://github.com/beckrecca/p3" target="_blank">Github</a></li>
+							<li>P4: <a href="http://p4.beckrecca.me" target="_blank">Live</a> & <a href="https://github.com/beckrecca/p4" target="_blank">Github</a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
 			
-			<div class="col-sm-9 col-md-8">
+			<div class="col-sm-8 col-lg-7">
 				<h2>About Me</h2>
 
-				<p>Hello! My name is Rebecca, and I live in Cambridge. I'm both a staff member and degree candidate at the Harvard Extension School. You would find my help in the Academic Services Office. I am pursing the ALM-IT degree with a major in Digital Media Arts and Instructional Design. I am particularly interested in web development, so I am pretty excited about this course! I spend the vast majority of my free time on the Internet, so it'd be awesome if I could make cool stuff for the Internet and my fellow nerds.</p>
+				<p>Hello! My name is Rebecca, and I live in Cambridge. I'm both a staff member and degree candidate at the Harvard Extension School. I am pursing the ALM-IT degree with a major in Digital Media Arts and Instructional Design. I am particularly interested in web development, so I am pretty excited about this course! I spend the vast majority of my free time on the Internet, so it'd be awesome if I could make cool stuff for the Internet and my fellow nerds.</p>
 
 				<p>Previously, I have studied Java with Dr. Leitner and some C and PHP with Dr. Malan here at the Extension School. As a teenager, I learned some HTML for fun and used to run my own blog back when Greymatter was a thing people used. I dropped that hobby for several years, but now that I'm back at it, I still really enjoy myself when I'm building a website. More recently, I've refreshed/updated my HTML and CSS skills in a couple of courses with Jen Kramer here at the Extension School. Those courses also taught Bootstrap and a touch of JavaScript.</p>
 
