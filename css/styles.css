@@ -3,6 +3,7 @@ body {
 }
 h1 {
 	text-align: center;
+	font-family: 'Pacifico', cursive;
 }
 .panel {
 	border: 1px dotted #aaa;
